@@ -27,7 +27,7 @@ please follow the below steps:
     sudo make install  (default install folder is /usr/local/share/openocd/)
     
 if you have done these steps, please copy **interface/rpi2.cfg** to the **/usr/local/share/openocd/scripts/interface/**,
-and aslo copy **target/rpi3.cfg** to the **/usr/local/share/openocd/scripts/target/**.
+and also copy **target/rpi3.cfg** to the **/usr/local/share/openocd/scripts/target/**.
 
 **The second step is the Rpi 2 pin headers and the Rpi 3 pin headers linking for each other, Following the below picture.**
 
@@ -67,11 +67,15 @@ When you have written the **enable_jtag_gpio=1** in the config.txt at the Rpi 3.
     
     openocd -f ./interface/rpi2.cfg -f ./target/rpi3.cfg
 
-**As you can see the Openocd of the Jtag mode shows the Rpi 3 checking information in the Rpi 2 terminal. The below picture is a result of the running command.**
+
+**As you can see the Openocd of the Jtag mode shows the Rpi 3 checking information in the Rpi 2 terminal. The below picture is a result of the running command**
+
 
 <img width="895" alt="Screen Shot 2022-05-04 at 22 46 23" src="https://user-images.githubusercontent.com/8576322/166707270-a742729a-5f79-4d74-852f-f85a5fbaad10.png">
 
+
 **The fourth step is using the telnet command to connect to the Openocd, and also try to run the *targets* and *reg* commands. if you see more information about the Rpi 3 and show all registers. the Rpi 2 has communicated the Rpi 3, It can start to debug the Rpi 3 SOC on the Rpi 2, It is like the below pictures.**
+
 
 <img width="891" alt="Screen Shot 2022-05-04 at 22 56 06" src="https://user-images.githubusercontent.com/8576322/166710864-936d6a78-6aa7-4b6c-afcc-cc20033cc6b7.png">
 
