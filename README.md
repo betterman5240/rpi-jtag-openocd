@@ -4,9 +4,9 @@ The Raspberry pi 2 can be a JTAG of using OPENOCD to simulate, and it can connec
 
 # How to be a good tool like a JTAG? 
 
-The first step is installing the Openocd in the Rpi 2.
+**The first step is installing the Openocd in the Rpi 2.**
 
-please follow below steps:
+please follow the below steps:
     
     cd ~
     
@@ -29,7 +29,7 @@ please follow below steps:
 if you have done these steps, please copy **interface/rpi2.cfg** to the **/usr/local/share/openocd/scripts/interface/**,
 and aslo copy **target/rpi3.cfg** to the **/usr/local/share/openocd/scripts/target/**.
 
-The second step is the Rpi 2 pin headers and the Rpi 3 pin headers linking for each other, Following the below picture.
+**The second step is the Rpi 2 pin headers and the Rpi 3 pin headers linking for each other, Following the below picture.**
 
 ![rpi2debugrpi3](https://user-images.githubusercontent.com/8576322/166696162-f1b5a7b3-8f52-4e94-a867-d199401d2a46.jpeg)
 
@@ -61,7 +61,7 @@ The second step is the Rpi 2 pin headers and the Rpi 3 pin headers linking for e
 
 When you have written the **enable_jtag_gpio=1** in the config.txt at the Rpi 3. the Rpi 3 will enable Alt4 configurations for next time.
 
-The third step is running the openocd command in the Rpi 2 and also trun on the Rpi 3 atfer you enable Alt4. Reference below commands.
+**The third step is running the openocd command in the Rpi 2 and also trun on the Rpi 3 atfer you enable Alt4. Reference below commands.**
 
     cd /usr/local/share/openocd/scripts/
     
