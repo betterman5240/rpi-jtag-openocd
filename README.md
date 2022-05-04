@@ -78,6 +78,10 @@ When you have written the **enable_jtag_gpio=1** in the config.txt at the Rpi 3.
 <img width="291" alt="Screen Shot 2022-05-04 at 22 56 46" src="https://user-images.githubusercontent.com/8576322/166710876-289e1258-86ef-4277-8508-c77a54d11901.png">
 
 
+# Reality environment
+
+
+![7CACED77-D64C-477D-B692-911C3215420D](https://user-images.githubusercontent.com/8576322/166717596-4e1c1e29-1212-4cd2-9d8f-420d7b2380e2.jpeg)
 
 
 
